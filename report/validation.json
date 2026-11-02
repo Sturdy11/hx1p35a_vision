@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "source_baseline": "V116",
+  "scope": "comment cleanup, project relocation and tooling",
+  "current_cases": [
+    {
+      "case": "focus116",
+      "passed": true,
+      "seconds": 2.94,
+      "log": "report/current_sim/focus116.log",
+      "log_sha256": "42b3b7f970c8b2c01ebdf5e15f780ff12d034941d873291f97bcfc920b7e281f"
+    },
+    {
+      "case": "wrapper116",
+      "passed": true,
+      "seconds": 1.78,
+      "log": "report/current_sim/wrapper116.log",
+      "log_sha256": "ca10f3770f2d23582d1528d805fc650348f21c7f00576d11ac21a22d7fc71922"
+    },
+    {
+      "case": "packet116",
+      "passed": true,
+      "seconds": 2.08,
+      "log": "report/current_sim/packet116.log",
+      "log_sha256": "082e8302977a42f1ceae653de36f7883bb207948475471f676aca4d0e32c66cb"
+    },
+    {
+      "case": "gauze116",
+      "passed": true,
+      "seconds": 1.27,
+      "log": "report/current_sim/gauze116.log",
+      "log_sha256": "f9027c18bbf27279593ea605e6ace0a8c0e7ed28348cf7888abab28a434402b7"
+    },
+    {
+      "case": "white_stream116_l1",
+      "passed": true,
+      "seconds": 12.62,
+      "log": "report/current_sim/white_stream116_l1.log",
+      "log_sha256": "f24a9c060e903b8f297718792a26bb2f675e8c31c966ad3a45c576b4a578f187"
+    },
+    {
+      "case": "white_stream116_l2",
+      "passed": true,
+      "seconds": 13.49,
+      "log": "report/current_sim/white_stream116_l2.log",
+      "log_sha256": "435b98162ef8f0610f07cf83b250a5bd9422d7e828e0c541992c8122b2b40344"
+    },
+    {
+      "case": "fullscene116",
+      "passed": true,
+      "seconds": 9.93,
+      "log": "report/current_sim/fullscene116.log",
+      "log_sha256": "7588bf23cc9bc2fde0f2f7a7c44a567ff78fb453e863520c6b69d3d7e509856c"
+    },
+    {
+      "case": "jaws116",
+      "passed": true,
+      "seconds": 150.56,
+      "log": "report/current_sim/jaws116.log",
+      "log_sha256": "36057dcd5698022ea377f062555c38ebf9ad4a19cd2c096a2b21a2cb9ef01077"
+    }
+  ],
+  "elaboration": {
+    "passed": true,
+    "log": "report/elaboration.log",
+    "sha256": "ff2ac303758fd8b69a109f44d919b80976ce7489fa374c9ed745253164e60c53"
+  },
+  "baseline_cases_preserved": 29,
+  "original_release_verified_unchanged": true,
+  "new_place_and_route_performed": false
+}

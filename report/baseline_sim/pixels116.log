@@ -1,0 +1,30 @@
+# do run.tcl 
+# Copying D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module scene_overlay116
+# -- Compiling module scene_overlay108
+# -- Compiling module osd_font_rom
+# -- Compiling module logo_rom
+# -- Compiling module tb_pixels109
+# 
+# Top level modules:
+# 	tb_pixels109
+# vsim -onfinish exit work.tb_pixels109 
+# Loading sv_std.std
+# Loading work.tb_pixels109
+# Loading work.scene_overlay116
+# Loading work.osd_font_rom
+# Loading work.logo_rom
+# Loading work.scene_overlay108
+# ** Warning: (vsim-3015) <source_project>/sim/pipeline116/pixels116/tb_pixels109.v(14): [PCDPC] - Port size (3 or 3) does not match connection size (2) for port 'display_mode'. The port definition is at: <source_project>/user_source/hdl_source/imgproc/scene_overlay116.v(27).
+# 
+#         Region: /tb_pixels109/dut
+# ** Warning: Design size of 5 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# PASS pixels116: 2764800 streamed; all 921600 OSD-off pixels exactly transparent including HUD/boxes/focus/logo; enable restores overlays; unchanged four-clock sync
+# ** Note: $finish    : <source_project>/sim/pipeline116/pixels116/tb_pixels109.v(51)
+#    Time: 27648220 ns  Iteration: 1  Instance: /tb_pixels109

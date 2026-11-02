@@ -1,0 +1,43 @@
+# do run.tcl 
+# Copying D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module local_light85
+# -- Compiling module scene_detect116
+# -- Compiling module tb_photo110
+# 
+# Top level modules:
+# 	tb_photo110
+# vsim -onfinish exit work.tb_photo110 
+# Loading sv_std.std
+# Loading work.tb_photo110
+# Loading work.scene_detect116
+# Loading work.local_light85
+# ** Warning: (vsim-3017) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Too few port connections. Expected 20, found 12.
+# 
+#         Region: /tb_photo110/dut
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_x0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_x1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_y0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_y1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'ring_ends'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'sequence_id'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'diagnostics'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(7): [TFMPC] - Missing connection for port 'pixel_mask'.
+# 
+# PROFILE bounds= 40, 16- 67, 92 length= 77 rings=  0/  7 solid=0 open=1 seeded=1 distal=1 fork=0 seedrows= 22/  9 distalrows= 21/  8 bladerows= 11
+# PROFILE bounds= 40, 16- 67, 92 length= 77 rings=  0/  7 solid=0 open=1 seeded=1 distal=1 fork=0 seedrows= 22/  9 distalrows= 21/  8 bladerows= 11
+# PHOTO counts=00000000040
+# ROI slot=          0 class=1 box= 40, 16- 67, 92
+# PASS sweep116_scissors_115: display crop diagnostic
+# ** Note: $finish    : <source_project>/sim/pipeline116/sweep116_scissors_115/tb_photo110.v(18)
+#    Time: 5053170 ns  Iteration: 1  Instance: /tb_photo110

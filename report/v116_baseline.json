@@ -1,0 +1,76 @@
+{
+  "build": 116,
+  "device": "PH1P35MDG324",
+  "resources": {
+    "slice": {
+      "used": 20701,
+      "available": 21216,
+      "free": 515
+    },
+    "lut6": {
+      "used": 19894,
+      "available": 21216,
+      "free": 1322
+    },
+    "reg": {
+      "used": 18940,
+      "available": 42432,
+      "free": 23492
+    },
+    "eram": {
+      "used": 77,
+      "available": 108,
+      "free": 31
+    },
+    "dsp": {
+      "used": 24,
+      "available": 40,
+      "free": 16
+    },
+    "pll": {
+      "used": 3,
+      "available": 6,
+      "free": 3
+    }
+  },
+  "timing_ns": {
+    "SWNS": 0.125,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "timing_scope": {
+    "sta_coverage_percent": 94.31,
+    "clock_frequencies_mhz": {
+      "HDMI_PIXEL_CLK": 75.002,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/usr_clk": 66.667,
+      "MIPI_RX_BYTE_CLK": 59.995,
+      "pll_clk_100m": 100.0,
+      "pll_clk_24m": 23.81,
+      "sys_clk_50m": 50.0,
+      "HDMI_SERIAL_CLK": 375.094,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/mcu_clk": 25.397,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/ctl_clk": 66.667,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/ddr_clk": 266.667,
+      "mipi_rx_ck_pad": 239.981,
+      "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.tif_c16_in": 59.995,
+      "u_ph1p35_324_ddr_wrapper/u_ddr2/ref_clk": 66.667,
+      "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX.io_clk_pad_p": 239.981
+    }
+  },
+  "board_validation": "pending",
+  "bitstreams": [
+    {
+      "file": "build/bitstreams/build116_compare_stable.bit",
+      "bytes": 1789542,
+      "sha256": "8fefcb5e57f7b4c24c7a4745f1c521e003aff2196ee12e43a770f7462de28b96"
+    },
+    {
+      "file": "build/bitstreams/build116_compare_stable_compress.bit",
+      "bytes": 1515956,
+      "sha256": "59a762e7ae2a62fbe81b6a7702d80144cc9c29eeb725b50a9b91757890b174df"
+    }
+  ],
+  "source_release_manifest_sha256": "7d8003e5b4fa041681ca0c741345f2141f9fe403a231de8789b1e1aca240250d",
+  "note": "These bitstreams were routed from the original V116 sources. Repository cleanup preserves HDL token streams; no new hardware optimization or timing result is claimed."
+}

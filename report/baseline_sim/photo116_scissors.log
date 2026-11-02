@@ -1,0 +1,42 @@
+# do run.tcl 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module local_light85
+# -- Compiling module scene_detect116
+# -- Compiling module tb_photo110
+# 
+# Top level modules:
+# 	tb_photo110
+# vsim -onfinish exit work.tb_photo110 
+# Loading sv_std.std
+# Loading work.tb_photo110
+# Loading work.scene_detect116
+# Loading work.local_light85
+# ** Warning: (vsim-3017) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Too few port connections. Expected 20, found 12.
+# 
+#         Region: /tb_photo110/dut
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_x0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_x1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_y0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'box_y1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'ring_ends'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'sequence_id'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'diagnostics'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(7): [TFMPC] - Missing connection for port 'pixel_mask'.
+# 
+# PROFILE bounds= 40, 16- 66, 91 length= 76 rings=  0/ 10 solid=1 open=1 seeded=1 distal=1 fork=0 seedrows= 26/ 13 distalrows= 25/ 11 bladerows= 17
+# PROFILE bounds= 40, 16- 66, 91 length= 76 rings=  0/ 10 solid=1 open=1 seeded=1 distal=1 fork=0 seedrows= 26/ 13 distalrows= 25/ 11 bladerows= 17
+# PHOTO counts=00000000040
+# ROI slot=          0 class=1 box= 40, 16- 66, 91
+# PASS photo116_scissors: display crop diagnostic
+# ** Note: $finish    : <source_project>/sim/pipeline116/photo116_scissors/tb_photo110.v(18)
+#    Time: 5031530 ns  Iteration: 1  Instance: /tb_photo110

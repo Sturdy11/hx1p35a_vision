@@ -1,0 +1,5 @@
+# Preserve vendor IP, encrypted source and release hashes on every platform.
+# Disabling newline conversion still permits ordinary text diffs.
+* -text
+*.bit binary
+*.zip binary

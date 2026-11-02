@@ -1,0 +1,14 @@
+# Reproducible source inputs and released bitstreams stay tracked.
+/build/out/
+/sim/out/
+**/work/
+**/__pycache__/
+*.pyc
+*.logw
+*.wlf
+*.vcd
+*.fst
+*.db
+*.tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,463 @@
+[
+  {
+    "name": "new116_roi_dim_scissors_85_0",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_scissors_85_0/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_scissors_85_0.zip"
+    ],
+    "marker": "PASS new116_roi_dim_scissors_85_0"
+  },
+  {
+    "name": "new116_roi_dim_scissors_85_3",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_scissors_85_3/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_scissors_85_3.zip"
+    ],
+    "marker": "PASS new116_roi_dim_scissors_85_3"
+  },
+  {
+    "name": "new116_roi_dim_scissors_100_0",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_scissors_100_0/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_scissors_100_0.zip"
+    ],
+    "marker": "PASS new116_roi_dim_scissors_100_0"
+  },
+  {
+    "name": "new116_roi_dim_scissors_100_3",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_scissors_100_3/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_scissors_100_3.zip"
+    ],
+    "marker": "PASS new116_roi_dim_scissors_100_3"
+  },
+  {
+    "name": "new116_roi_dim_scissors_115_0",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_scissors_115_0/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_scissors_115_0.zip"
+    ],
+    "marker": "PASS new116_roi_dim_scissors_115_0"
+  },
+  {
+    "name": "new116_roi_dim_scissors_115_3",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_scissors_115_3/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_scissors_115_3.zip"
+    ],
+    "marker": "PASS new116_roi_dim_scissors_115_3"
+  },
+  {
+    "name": "new116_roi_dim_hemostat_85_0",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_hemostat_85_0/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_hemostat_85_0.zip"
+    ],
+    "marker": "PASS new116_roi_dim_hemostat_85_0"
+  },
+  {
+    "name": "new116_roi_dim_hemostat_85_3",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_hemostat_85_3/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_hemostat_85_3.zip"
+    ],
+    "marker": "PASS new116_roi_dim_hemostat_85_3"
+  },
+  {
+    "name": "new116_roi_dim_hemostat_100_0",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_hemostat_100_0/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_hemostat_100_0.zip"
+    ],
+    "marker": "PASS new116_roi_dim_hemostat_100_0"
+  },
+  {
+    "name": "new116_roi_dim_hemostat_100_3",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_hemostat_100_3/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_hemostat_100_3.zip"
+    ],
+    "marker": "PASS new116_roi_dim_hemostat_100_3"
+  },
+  {
+    "name": "new116_roi_dim_hemostat_115_0",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_hemostat_115_0/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_hemostat_115_0.zip"
+    ],
+    "marker": "PASS new116_roi_dim_hemostat_115_0"
+  },
+  {
+    "name": "new116_roi_dim_hemostat_115_3",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/new116_roi_dim_hemostat_115_3/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/dim_hemostat_115_3.zip"
+    ],
+    "marker": "PASS new116_roi_dim_hemostat_115_3"
+  },
+  {
+    "name": "photo116_scissors",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/photo116_scissors/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/scissors.zip"
+    ],
+    "marker": "PASS photo116_scissors"
+  },
+  {
+    "name": "photo116_hemostat",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/photo116_hemostat/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/hemostat.zip"
+    ],
+    "marker": "PASS photo116_hemostat"
+  },
+  {
+    "name": "photo116_gauze",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/photo116_gauze/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/gauze.zip"
+    ],
+    "marker": "PASS photo116_gauze"
+  },
+  {
+    "name": "sweep116_scissors_85",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/sweep116_scissors_85/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/sweep110_scissors_85.zip"
+    ],
+    "marker": "PASS sweep116_scissors_85"
+  },
+  {
+    "name": "sweep116_scissors_115",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/sweep116_scissors_115/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/sweep110_scissors_115.zip"
+    ],
+    "marker": "PASS sweep116_scissors_115"
+  },
+  {
+    "name": "sweep116_hemostat_85",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/sweep116_hemostat_85/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/sweep110_hemostat_85.zip"
+    ],
+    "marker": "PASS sweep116_hemostat_85"
+  },
+  {
+    "name": "sweep116_hemostat_115",
+    "top": "tb_photo110",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/sweep116_hemostat_115/tb_photo110.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/sweep110_hemostat_115.zip"
+    ],
+    "marker": "PASS sweep116_hemostat_115"
+  },
+  {
+    "name": "jaws116",
+    "top": "tb_ring109",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "sim/reference/scene_detect108.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/jaws116/tb_ring109.v"
+    ],
+    "defines": [],
+    "fixtures": [],
+    "marker": "PASS jaws116"
+  },
+  {
+    "name": "gauze116",
+    "top": "tb_gauze110",
+    "sources": [
+      "src/rtl/imgproc/scene_stabilize110.v",
+      "sim/cases/gauze116/tb_gauze110.v"
+    ],
+    "defines": [],
+    "fixtures": [],
+    "marker": "PASS gauze116"
+  },
+  {
+    "name": "fullscene116",
+    "top": "tb_fullscene109",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/fullscene116/tb_fullscene109.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/full17_fixture.zip"
+    ],
+    "marker": "PASS fullscene116"
+  },
+  {
+    "name": "white_stream116_l1",
+    "top": "tb_white_stream108",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "sim/reference/scene_detect102.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/white_stream116_l1/tb_white_stream108.v"
+    ],
+    "defines": [],
+    "fixtures": [],
+    "marker": "PASS white_stream116_l1"
+  },
+  {
+    "name": "white_stream116_l2",
+    "top": "tb_white_stream108",
+    "sources": [
+      "src/rtl/imgproc/local_light85.v",
+      "sim/reference/scene_detect102.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "sim/cases/white_stream116_l2/tb_white_stream108.v"
+    ],
+    "defines": [
+      "+define+SCENE_RAM_LATENCY2"
+    ],
+    "fixtures": [],
+    "marker": "PASS white_stream116_l2"
+  },
+  {
+    "name": "wrapper116",
+    "top": "tb_wrapper109",
+    "sources": [
+      "src/rtl/imgproc/motion_grid105.v",
+      "src/rtl/imgproc/panel_info105.v",
+      "src/rtl/imgproc/latency_refresh104.v",
+      "src/rtl/imgproc/panel_decimal98.v",
+      "src/rtl/imgproc/scene_frame_guard88.v",
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/display_tone69.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "src/rtl/imgproc/scene_stabilize110.v",
+      "src/rtl/imgproc/scene_overlay116.v",
+      "src/rtl/imgproc/scene_metrics73.v",
+      "src/rtl/imgproc/focus114.v",
+      "src/rtl/imgproc/result_latency77.v",
+      "src/rtl/imgproc/panel_decimal77.v",
+      "src/rtl/imgproc/video_overlay116.v",
+      "src/rtl/imgproc/osd_font_rom.v",
+      "src/rtl/imgproc/logo_rom.v",
+      "src/rtl/vtc/uivtc.v",
+      "src/rtl/imgproc/scene_source113.v",
+      "src/rtl/imgproc/scene_audit113.v",
+      "src/rtl/imgproc/frame_rates108.v",
+      "src/rtl/imgproc/sobel111.v",
+      "src/rtl/imgproc/display_modes111.v",
+      "sim/cases/wrapper116/tb_wrapper109.v"
+    ],
+    "defines": [],
+    "fixtures": [],
+    "marker": "PASS wrapper116"
+  },
+  {
+    "name": "packet116",
+    "top": "tb_follow_packet107",
+    "sources": [
+      "src/rtl/imgproc/motion_grid105.v",
+      "src/rtl/imgproc/panel_info105.v",
+      "src/rtl/imgproc/latency_refresh104.v",
+      "src/rtl/imgproc/panel_decimal98.v",
+      "src/rtl/imgproc/scene_frame_guard88.v",
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/display_tone69.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "src/rtl/imgproc/scene_stabilize110.v",
+      "src/rtl/imgproc/scene_overlay116.v",
+      "src/rtl/imgproc/scene_metrics73.v",
+      "src/rtl/imgproc/focus114.v",
+      "src/rtl/imgproc/result_latency77.v",
+      "src/rtl/imgproc/panel_decimal77.v",
+      "src/rtl/imgproc/video_overlay116.v",
+      "src/rtl/imgproc/osd_font_rom.v",
+      "src/rtl/imgproc/logo_rom.v",
+      "src/rtl/imgproc/scene_source113.v",
+      "src/rtl/imgproc/scene_audit113.v",
+      "src/rtl/imgproc/key_action80.v",
+      "src/rtl/imgproc/alg_ctrl111.v",
+      "src/rtl/imgproc/cdc_sync.v",
+      "src/rtl/key_remove_shakes.v",
+      "src/rtl/imgproc/frame_rates108.v",
+      "src/rtl/imgproc/sobel111.v",
+      "src/rtl/imgproc/display_modes111.v",
+      "sim/cases/packet116/tb_follow_packet107.v"
+    ],
+    "defines": [],
+    "fixtures": [],
+    "marker": "PASS packet116"
+  },
+  {
+    "name": "pixels116",
+    "top": "tb_pixels109",
+    "sources": [
+      "src/rtl/imgproc/scene_overlay116.v",
+      "sim/reference/scene_overlay108.v",
+      "src/rtl/imgproc/osd_font_rom.v",
+      "src/rtl/imgproc/logo_rom.v",
+      "sim/cases/pixels116/tb_pixels109.v"
+    ],
+    "defines": [],
+    "fixtures": [],
+    "marker": "PASS pixels116"
+  },
+  {
+    "name": "fullvideo116",
+    "top": "tb_fullvideo83",
+    "sources": [
+      "src/rtl/imgproc/motion_grid105.v",
+      "src/rtl/imgproc/panel_info105.v",
+      "src/rtl/imgproc/latency_refresh104.v",
+      "src/rtl/imgproc/panel_decimal98.v",
+      "src/rtl/imgproc/scene_frame_guard88.v",
+      "src/rtl/imgproc/local_light85.v",
+      "src/rtl/imgproc/display_tone69.v",
+      "src/rtl/imgproc/scene_detect116.v",
+      "src/rtl/imgproc/scene_stabilize110.v",
+      "src/rtl/imgproc/scene_overlay116.v",
+      "src/rtl/imgproc/scene_metrics73.v",
+      "src/rtl/imgproc/focus114.v",
+      "src/rtl/imgproc/result_latency77.v",
+      "src/rtl/imgproc/panel_decimal77.v",
+      "src/rtl/imgproc/video_overlay116.v",
+      "src/rtl/imgproc/osd_font_rom.v",
+      "src/rtl/imgproc/logo_rom.v",
+      "src/rtl/vtc/uivtc.v",
+      "src/rtl/imgproc/scene_source113.v",
+      "src/rtl/imgproc/scene_audit113.v",
+      "src/rtl/imgproc/frame_rates108.v",
+      "src/rtl/imgproc/sobel111.v",
+      "src/rtl/imgproc/display_modes111.v",
+      "sim/cases/fullvideo116/tb_fullvideo83.v"
+    ],
+    "defines": [],
+    "fixtures": [
+      "data/fixtures/full17_fixture.zip"
+    ],
+    "marker": "PASS fullvideo116"
+  },
+  {
+    "name": "focus116",
+    "top": "tb_focus114",
+    "sources": [
+      "src/rtl/imgproc/focus114.v",
+      "sim/cases/focus116/tb_focus114.v"
+    ],
+    "defines": [],
+    "fixtures": [],
+    "marker": "PASS focus116"
+  }
+]

@@ -1,0 +1,18 @@
+# do run.tcl 
+# Copying D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module focus114
+# -- Compiling module tb_focus114
+# 
+# Top level modules:
+# 	tb_focus114
+# vsim -onfinish exit work.tb_focus114 
+# Loading sv_std.std
+# Loading work.tb_focus114
+# Loading work.focus114
+# PASS focus116 auto movement, stationary repetition, manual selection, live coordinates, held/empty/disable/class-change/edge; atomic <=74 clocks
+# ** Note: $finish    : <relocated_repository>/sim/cases/focus116/tb_focus114.v(36)
+#    Time: 18040 ns  Iteration: 1  Instance: /tb_focus114

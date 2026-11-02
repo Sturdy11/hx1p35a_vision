@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "independent_directory": true,
+  "contains_parent_path_spaces": true,
+  "integrity_check_passed": true,
+  "td_elaboration_passed": true,
+  "focus_simulation_passed": true,
+  "evidence": [
+    {
+      "file": "report/relocation_elaboration.log",
+      "sha256": "e95207955fee56ba95aadc1fa900b0b8b10e746df60b44fa58b6d9dc8d2c7c7c"
+    },
+    {
+      "file": "report/relocation_focus.log",
+      "sha256": "bd5a7c56a6226aed345cf15101c00f0798655c19410d93e31754aff089036f01"
+    }
+  ]
+}

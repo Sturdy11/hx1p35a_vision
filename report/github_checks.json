@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "operation": "git add and checkout-index round trip in an external temporary repository",
+  "core_autocrlf": true,
+  "checked_files_including_manifest": 291,
+  "checked_manifest_sha256": "0b022112260c60755e70203e4830f8761943cf9f03e440f9c3c70244f0c75709",
+  "build_output_ignored": true,
+  "simulation_output_ignored": true,
+  "encrypted_vendor_files_preserved": 7,
+  "remote_created": false,
+  "remote_upload_performed": false
+}

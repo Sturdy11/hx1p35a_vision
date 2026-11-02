@@ -1,0 +1,60 @@
+# do run.tcl 
+# Copying D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module local_light85
+# -- Compiling module scene_detect102
+# -- Compiling module scene_detect116
+# -- Compiling module tb_white_stream108
+# 
+# Top level modules:
+# 	tb_white_stream108
+# vsim -onfinish exit work.tb_white_stream108 
+# Loading sv_std.std
+# Loading work.tb_white_stream108
+# Loading work.scene_detect116
+# Loading work.local_light85
+# Loading work.scene_detect102
+# ** Warning: (vsim-3017) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(6): [TFMPC] - Too few port connections. Expected 20, found 16.
+# 
+#         Region: /tb_white_stream108/dut
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(6): [TFMPC] - Missing connection for port 'ring_ends'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(6): [TFMPC] - Missing connection for port 'sequence_id'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(6): [TFMPC] - Missing connection for port 'diagnostics'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(6): [TFMPC] - Missing connection for port 'pixel_mask'.
+# 
+# ** Warning: (vsim-3017) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Too few port connections. Expected 20, found 12.
+# 
+#         Region: /tb_white_stream108/old
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'box_x0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'box_x1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'box_y0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'box_y1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'ring_ends'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'sequence_id'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'diagnostics'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(7): [TFMPC] - Missing connection for port 'pixel_mask'.
+# 
+# CASE mode0 center60,120 cotton new1 old0 cycles80083
+# CASE mode0 center160,120 cotton new1 old0 cycles80083
+# CASE mode0 center260,120 cotton new1 old0 cycles80083
+# CASE mode1 center160,120 cotton new1 old1 cycles84757
+# CASE mode2 center160,120 cotton new0 old0 cycles76804
+# CASE mode3 center160,120 cotton new1 old0 cycles93824
+# CASE mode4 center160,120 cotton new0 old0 cycles76804
+# CASE mode5 center160,120 cotton new0 old0 cycles76804
+# PASS white_stream116_l1: true streamed RGB, position-independent reflected cotton, normal white, partial hand, saturated cloth/dim/empty negatives, old detector reproduction
+# ** Note: $finish    : <source_project>/sim/pipeline116/white_stream116_l1/tb_white_stream108.v(41)
+#    Time: 12648030 ns  Iteration: 1  Instance: /tb_white_stream108

@@ -1,0 +1,74 @@
+# do run.tcl 
+# Copying D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module motion_grid105
+# -- Compiling module panel_info105
+# -- Compiling module latency_refresh104
+# -- Compiling module panel_decimal98
+# -- Compiling module scene_frame_guard88
+# -- Compiling module local_light85
+# -- Compiling module display_tone69
+# -- Compiling module scene_detect116
+# -- Compiling module scene_stabilize110
+# -- Compiling module scene_overlay116
+# -- Compiling module scene_metrics73
+# -- Compiling module panel_decimal73
+# -- Compiling module focus114
+# -- Compiling module result_latency77
+# -- Compiling module panel_decimal77
+# -- Compiling module video_overlay116
+# -- Compiling module osd_font_rom
+# -- Compiling module logo_rom
+# -- Compiling module uivtc
+# -- Compiling module scene_source113
+# -- Compiling module scene_audit113
+# -- Compiling module frame_rates108
+# -- Compiling module sobel111
+# -- Compiling module display_modes111
+# -- Compiling module tb_wrapper109
+# 
+# Top level modules:
+# 	scene_metrics73
+# 	panel_decimal73
+# 	panel_decimal77
+# 	uivtc
+# 	tb_wrapper109
+# vsim -onfinish exit work.tb_wrapper109 
+# Loading sv_std.std
+# Loading work.tb_wrapper109
+# Loading work.video_overlay116
+# Loading work.display_tone69
+# Loading work.display_modes111
+# Loading work.sobel111
+# Loading work.scene_detect116
+# Loading work.local_light85
+# Loading work.scene_frame_guard88
+# Loading work.scene_stabilize110
+# Loading work.frame_rates108
+# Loading work.motion_grid105
+# Loading work.scene_source113
+# Loading work.scene_audit113
+# Loading work.focus114
+# Loading work.result_latency77
+# Loading work.latency_refresh104
+# Loading work.panel_decimal98
+# Loading work.panel_info105
+# Loading work.scene_overlay116
+# Loading work.osd_font_rom
+# Loading work.logo_rom
+# ** Warning: (vsim-3015) <source_project>/sim/pipeline116/wrapper116/tb_wrapper109.v(17): [PCDPC] - Port size (24 or 24) does not match connection size (32) for port 'I_latency_now_ms'. The port definition is at: <source_project>/user_source/hdl_source/imgproc/video_overlay116.v(28).
+# 
+#         Region: /tb_wrapper109/dut
+# ** Warning: (vsim-3015) <source_project>/sim/pipeline116/wrapper116/tb_wrapper109.v(17): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'I_video_frame'. The port definition is at: <source_project>/user_source/hdl_source/imgproc/video_overlay116.v(29).
+# 
+#         Region: /tb_wrapper109/dut
+# ** Warning: Design size of 21 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# HUD pending=123456789/123456789 flags=11 inputs=11 packet=0 safe=1
+# PASS wrapper116: active-frame requests deferred; original pure and unenhanced; OSD independent, recognition survives OSD off; detection resumes after original
+# ** Note: $finish    : <source_project>/sim/pipeline116/wrapper116/tb_wrapper109.v(57)
+#    Time: 17253 ns  Iteration: 0  Instance: /tb_wrapper109

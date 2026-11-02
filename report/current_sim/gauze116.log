@@ -1,0 +1,33 @@
+# do run.tcl 
+# Copying D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module scene_stabilize110
+# -- Compiling module tb_gauze110
+# 
+# Top level modules:
+# 	tb_gauze110
+# vsim -onfinish exit work.tb_gauze110 
+# Loading sv_std.std
+# Loading work.tb_gauze110
+# Loading work.scene_stabilize110
+# ** Warning: (vsim-3017) <repository>/sim/cases/gauze116/tb_gauze110.v(8): [TFMPC] - Too few port connections. Expected 24, found 18.
+# 
+#         Region: /tb_gauze110/dut
+# ** Warning: (vsim-3722) <repository>/sim/cases/gauze116/tb_gauze110.v(8): [TFMPC] - Missing connection for port 'box_x0'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/gauze116/tb_gauze110.v(8): [TFMPC] - Missing connection for port 'box_x1'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/gauze116/tb_gauze110.v(8): [TFMPC] - Missing connection for port 'box_y0'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/gauze116/tb_gauze110.v(8): [TFMPC] - Missing connection for port 'box_y1'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/gauze116/tb_gauze110.v(8): [TFMPC] - Missing connection for port 'classes'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/gauze116/tb_gauze110.v(8): [TFMPC] - Missing connection for port 'held'.
+# 
+# PASS gauze116: both duplicate input orders, adjacent and partially overlapping gauzes, existing held-track convergence, bounded packet deadline
+# ** Note: $finish    : <repository>/sim/cases/gauze116/tb_gauze110.v(26)
+#    Time: 174620 ns  Iteration: 1  Instance: /tb_gauze110

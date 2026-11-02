@@ -1,0 +1,444 @@
+# do run.tcl 
+# Copying D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\QUARTUS\app\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module local_light85
+# -- Compiling module scene_detect108
+# -- Compiling module scene_detect116
+# -- Compiling module tb_ring109
+# 
+# Top level modules:
+# 	tb_ring109
+# vsim -onfinish exit work.tb_ring109 
+# Loading sv_std.std
+# Loading work.tb_ring109
+# Loading work.scene_detect116
+# Loading work.local_light85
+# Loading work.scene_detect108
+# ** Warning: (vsim-3017) <repository>/sim/cases/jaws116/tb_ring109.v(8): [TFMPC] - Too few port connections. Expected 20, found 16.
+# 
+#         Region: /tb_ring109/dut
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(8): [TFMPC] - Missing connection for port 'ring_ends'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(8): [TFMPC] - Missing connection for port 'sequence_id'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(8): [TFMPC] - Missing connection for port 'diagnostics'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(8): [TFMPC] - Missing connection for port 'pixel_mask'.
+# 
+# ** Warning: (vsim-3017) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Too few port connections. Expected 20, found 12.
+# 
+#         Region: /tb_ring109/old
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'box_x0'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'box_x1'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'box_y0'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'box_y1'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'ring_ends'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'sequence_id'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'diagnostics'.
+# 
+# ** Warning: (vsim-3722) <repository>/sim/cases/jaws116/tb_ring109.v(9): [TFMPC] - Missing connection for port 'pixel_mask'.
+# 
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=1 distal=1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=1 distal=1
+# RING kind=          0 rot=          0 counts=02000000040 old=03000000040
+# ROI class=1 bbox= 29, 18- 67,103
+# ROI class=6 bbox= 67, 26- 83, 34
+# ROI class=6 bbox= 83, 95- 99,103
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=1 distal=1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=1 distal=1
+# RING kind=          0 rot=          1 counts=02000000040 old=03000000040
+# ROI class=1 bbox= 16, 29-101, 67
+# ROI class=6 bbox= 85, 67- 93, 83
+# ROI class=6 bbox= 16, 83- 24, 99
+# PAIR anchor= 1 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=1 distal=1
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=1 distal=1
+# RING kind=          0 rot=          2 counts=02000000040 old=03000000040
+# ROI class=6 bbox= 20, 16- 36, 24
+# ROI class=1 bbox= 52, 16- 90,101
+# ROI class=6 bbox= 36, 85- 52, 93
+# PAIR anchor= 3 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=1 distal=1
+# PAIR anchor= 3 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=1 distal=1
+# RING kind=          0 rot=          3 counts=02000000040 old=03000000040
+# ROI class=6 bbox= 95, 20-103, 36
+# ROI class=6 bbox= 26, 36- 34, 52
+# ROI class=1 bbox= 18, 52-103, 90
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          1 rot=          0 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 29, 18- 67,103
+# ROI class=6 bbox= 67, 26- 83, 34
+# ROI class=6 bbox= 83, 95- 99,103
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          1 rot=          1 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 16, 29-101, 67
+# ROI class=6 bbox= 85, 67- 93, 83
+# ROI class=6 bbox= 16, 83- 24, 99
+# PAIR anchor= 1 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          1 rot=          2 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 20, 16- 36, 24
+# ROI class=3 bbox= 52, 16- 90,101
+# ROI class=6 bbox= 36, 85- 52, 93
+# PAIR anchor= 3 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 3 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          1 rot=          3 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 95, 20-103, 36
+# ROI class=6 bbox= 26, 36- 34, 52
+# ROI class=3 bbox= 18, 52-103, 90
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings=  1/ 13 core=1 blade=0 seed=0 distal=1
+# RING kind=          2 rot=          0 counts=02000000040 old=03000000040
+# ROI class=1 bbox= 29, 18- 67,103
+# ROI class=6 bbox= 67, 26- 83, 34
+# ROI class=6 bbox= 83, 95- 99,103
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings= 13/  1 core=1 blade=0 seed=0 distal=1
+# RING kind=          2 rot=          1 counts=02000000040 old=03000000040
+# ROI class=1 bbox= 16, 29-101, 67
+# ROI class=6 bbox= 85, 67- 93, 83
+# ROI class=6 bbox= 16, 83- 24, 99
+# PAIR anchor= 1 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=1
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings= 13/  1 core=1 blade=0 seed=0 distal=1
+# RING kind=          2 rot=          2 counts=02000000040 old=03000000040
+# ROI class=6 bbox= 20, 16- 36, 24
+# ROI class=1 bbox= 52, 16- 90,101
+# ROI class=6 bbox= 36, 85- 52, 93
+# PAIR anchor= 3 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=1
+# PAIR anchor= 3 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings=  1/ 13 core=1 blade=0 seed=0 distal=1
+# RING kind=          2 rot=          3 counts=02000000040 old=03000000040
+# ROI class=6 bbox= 95, 20-103, 36
+# ROI class=6 bbox= 26, 36- 34, 52
+# ROI class=1 bbox= 18, 52-103, 90
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          3 rot=          0 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 29, 18- 67,103
+# ROI class=6 bbox= 67, 26- 83, 34
+# ROI class=6 bbox= 83, 95- 99,103
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          3 rot=          1 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 16, 29-101, 67
+# ROI class=6 bbox= 85, 67- 93, 83
+# ROI class=6 bbox= 16, 83- 24, 99
+# PAIR anchor= 1 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          3 rot=          2 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 20, 16- 36, 24
+# ROI class=3 bbox= 52, 16- 90,101
+# ROI class=6 bbox= 36, 85- 52, 93
+# PAIR anchor= 3 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 3 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          3 rot=          3 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 95, 20-103, 36
+# ROI class=6 bbox= 26, 36- 34, 52
+# ROI class=3 bbox= 18, 52-103, 90
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          4 rot=          0 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 29, 18- 67,103
+# ROI class=6 bbox= 67, 26- 83, 34
+# ROI class=6 bbox= 83, 95- 99,103
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          4 rot=          1 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 16, 29-101, 67
+# ROI class=6 bbox= 85, 67- 93, 83
+# ROI class=6 bbox= 16, 83- 24, 99
+# PAIR anchor= 1 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          4 rot=          2 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 20, 16- 36, 24
+# ROI class=3 bbox= 52, 16- 90,101
+# ROI class=6 bbox= 36, 85- 52, 93
+# PAIR anchor= 3 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 3 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          4 rot=          3 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 95, 20-103, 36
+# ROI class=6 bbox= 26, 36- 34, 52
+# ROI class=3 bbox= 18, 52-103, 90
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          5 rot=          0 counts=02000000040 old=03000000040
+# ROI class=1 bbox= 29, 18- 67,103
+# ROI class=6 bbox= 67, 26- 83, 34
+# ROI class=6 bbox= 83, 95- 99,103
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          5 rot=          1 counts=02000000040 old=03000000040
+# ROI class=1 bbox= 16, 29-101, 67
+# ROI class=6 bbox= 85, 67- 93, 83
+# ROI class=6 bbox= 16, 83- 24, 99
+# PAIR anchor= 1 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          5 rot=          2 counts=02000000040 old=03000000040
+# ROI class=6 bbox= 20, 16- 36, 24
+# ROI class=1 bbox= 52, 16- 90,101
+# ROI class=6 bbox= 36, 85- 52, 93
+# PAIR anchor= 3 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 3 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          5 rot=          3 counts=02000000040 old=03000000040
+# ROI class=6 bbox= 95, 20-103, 36
+# ROI class=6 bbox= 26, 36- 34, 52
+# ROI class=1 bbox= 18, 52-103, 90
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          6 rot=          0 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 29, 18- 67,103
+# ROI class=6 bbox= 67, 26- 83, 34
+# ROI class=6 bbox= 83, 95- 99,103
+# PAIR anchor= 0 ring=0 j= 1 curve=1 arc=1 geom=0 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 2 curve=1 arc=1 geom=0 supp=0 term=0 left/right=0/1
+# PAIR anchor= 0 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=1 left/right=0/1
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 0 ring=1 j= 1 curve=1 arc=1 geom=1 supp=1 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PAIR anchor= 0 ring=1 j= 2 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 0 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=1 left/right=0/1
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          6 rot=          1 counts=02000040000 old=03000000040
+# ROI class=3 bbox= 16, 29-101, 67
+# ROI class=6 bbox= 85, 67- 93, 83
+# ROI class=6 bbox= 16, 83- 24, 99
+# PAIR anchor= 1 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=0 j= 3 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PROFILE retry=0 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PAIR anchor= 1 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 1 ring=1 j= 3 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings= 13/  0 core=1 blade=0 seed=0 distal=0
+# RING kind=          6 rot=          2 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 20, 16- 36, 24
+# ROI class=3 bbox= 52, 16- 90,101
+# ROI class=6 bbox= 36, 85- 52, 93
+# PAIR anchor= 3 ring=0 j= 0 curve=1 arc=1 geom=0 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 1 curve=1 arc=1 geom=0 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=0 j= 2 curve=1 arc=1 geom=0 supp=1 term=1 left/right=1/0
+# PROFILE retry=0 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# PAIR anchor= 3 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=1/0
+# PAIR anchor= 3 ring=1 j= 2 curve=1 arc=1 geom=1 supp=1 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 0 curve=1 arc=1 geom=1 supp=0 term=1 left/right=1/0
+# PAIR anchor= 2 ring=1 j= 1 curve=1 arc=1 geom=1 supp=0 term=0 left/right=0/0
+# PROFILE retry=1 rings=  0/ 13 core=1 blade=0 seed=0 distal=0
+# RING kind=          6 rot=          3 counts=02000040000 old=03000000040
+# ROI class=6 bbox= 95, 20-103, 36
+# ROI class=6 bbox= 26, 36- 34, 52
+# ROI class=3 bbox= 18, 52-103, 90
+# PASS jaws116: actual RGB, scissors/hemostats, four orientations, one detached ring arc reattached, blade-near and exterior needles retained
+# ** Note: $finish    : <repository>/sim/cases/jaws116/tb_ring109.v(54)
+#    Time: 150460770 ns  Iteration: 1  Instance: /tb_ring109

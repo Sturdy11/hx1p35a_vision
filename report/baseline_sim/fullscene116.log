@@ -1,0 +1,46 @@
+# do run.tcl 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module local_light85
+# -- Compiling module scene_detect116
+# -- Compiling module tb_fullscene109
+# 
+# Top level modules:
+# 	tb_fullscene109
+# vsim -onfinish exit work.tb_fullscene109 
+# Loading sv_std.std
+# Loading work.tb_fullscene109
+# Loading work.scene_detect116
+# Loading work.local_light85
+# ** Warning: (vsim-3017) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Too few port connections. Expected 20, found 11.
+# 
+#         Region: /tb_fullscene109/dut
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'objects'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'box_x0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'box_x1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'box_y0'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'box_y1'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'classes'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'ring_ends'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'diagnostics'.
+# 
+# ** Warning: (vsim-3722) <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(7): [TFMPC] - Missing connection for port 'pixel_mask'.
+# 
+# PROFILE bbox= 97, 64-106,147 ring=  0/  0 seed=  0/  1 bright= 42/ 42 distal=  0/  1 solid=0 open=0 midspan=  133 midhits=   86 midrows= 21 clutter=0
+# PROFILE bbox=148, 67-177,153 ring=  0/ 14 seed= 43/ 31 bright= 44/ 43 distal= 43/ 31 solid=1 open=1 midspan=  198 midhits=  198 midrows= 22 clutter=0
+# PROFILE bbox=235, 69-264,153 ring=  0/ 15 seed=  0/  3 bright= 43/ 42 distal=  0/  3 solid=0 open=0 midspan=  150 midhits=   97 midrows= 22 clutter=0
+# PROFILE bbox= 97, 64-106,147 ring=  0/  0 seed=  0/  1 bright= 42/ 42 distal=  0/  1 solid=0 open=0 midspan=  133 midhits=   86 midrows= 21 clutter=0
+# PROFILE bbox=148, 67-177,153 ring=  0/ 14 seed= 43/ 31 bright= 44/ 43 distal= 43/ 31 solid=1 open=1 midspan=  198 midhits=  198 midrows= 22 clutter=0
+# PROFILE bbox=235, 69-264,153 ring=  0/ 15 seed=  0/  3 bright= 43/ 42 distal=  0/  3 solid=0 open=0 midspan=  150 midhits=   97 midrows= 22 clutter=0
+# PASS fullscene116: streamed 720p six classes; S1 T1 H1 G2 C6 N6; threshold=20 cycles=1385705
+# ** Note: $finish    : <source_project>/sim/pipeline116/fullscene116/tb_fullscene109.v(15)
+#    Time: 23075070 ns  Iteration: 1  Instance: /tb_fullscene109

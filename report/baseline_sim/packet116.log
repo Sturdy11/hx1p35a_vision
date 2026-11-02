@@ -1,0 +1,74 @@
+# do run.tcl 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module motion_grid105
+# -- Compiling module panel_info105
+# -- Compiling module latency_refresh104
+# -- Compiling module panel_decimal98
+# -- Compiling module scene_frame_guard88
+# -- Compiling module local_light85
+# -- Compiling module display_tone69
+# -- Compiling module scene_detect116
+# -- Compiling module scene_stabilize110
+# -- Compiling module scene_overlay116
+# -- Compiling module scene_metrics73
+# -- Compiling module panel_decimal73
+# -- Compiling module focus114
+# -- Compiling module result_latency77
+# -- Compiling module panel_decimal77
+# -- Compiling module video_overlay116
+# -- Compiling module osd_font_rom
+# -- Compiling module logo_rom
+# -- Compiling module scene_source113
+# -- Compiling module scene_audit113
+# -- Compiling module key_action80
+# -- Compiling module alg_ctrl111
+# -- Compiling module cdc_bit_sync
+# -- Compiling module cdc_bus_sync
+# -- Compiling module cdc_rst_sync
+# -- Compiling module key_remove_shakes
+# -- Compiling module frame_rates108
+# -- Compiling module sobel111
+# -- Compiling module display_modes111
+# -- Compiling module tb_follow_packet107
+# 
+# Top level modules:
+# 	scene_metrics73
+# 	panel_decimal73
+# 	panel_decimal77
+# 	alg_ctrl111
+# 	cdc_bit_sync
+# 	cdc_bus_sync
+# 	cdc_rst_sync
+# 	tb_follow_packet107
+# vsim -onfinish exit work.tb_follow_packet107 
+# Loading sv_std.std
+# Loading work.tb_follow_packet107
+# Loading work.video_overlay116
+# Loading work.display_tone69
+# Loading work.display_modes111
+# Loading work.sobel111
+# Loading work.scene_detect116
+# Loading work.local_light85
+# Loading work.scene_frame_guard88
+# Loading work.scene_stabilize110
+# Loading work.frame_rates108
+# Loading work.motion_grid105
+# Loading work.scene_source113
+# Loading work.scene_audit113
+# Loading work.focus114
+# Loading work.result_latency77
+# Loading work.latency_refresh104
+# Loading work.panel_decimal98
+# Loading work.panel_info105
+# Loading work.scene_overlay116
+# Loading work.osd_font_rom
+# Loading work.logo_rom
+# ** Warning: Design size of 21 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# PASS packet116 latest complete moving-cotton generation commits, moderate outline changes, original slot/crosshair/BCD coherence and atomic blanking update
+# ** Note: $finish    : <source_project>/sim/pipeline116/packet116/tb_follow_packet107.v(59)
+#    Time: 533640 ns  Iteration: 1  Instance: /tb_follow_packet107
